@@ -1,34 +1,6 @@
-import { useEffect, useState } from "react";
-
 const HeroSection = () => {
-  const [showIntro, setShowIntro] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowIntro(false);
-    }, 3000);
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
-    <>
-      {/* Netflix-style intro animation */}
-      {showIntro && (
-        <div className="fixed inset-0 z-[100] bg-background flex items-center justify-center animate-netflix-zoom">
-          <div className="text-center space-y-6">
-            <h1 className="text-4xl md:text-6xl font-bold bg-gradient-tech bg-clip-text text-transparent">
-              IEEE NORTH KARNATAKA SUBSECTION
-            </h1>
-            <p className="text-2xl md:text-4xl text-muted-foreground">PRESENTS</p>
-            <h2 className="text-5xl md:text-7xl font-bold text-primary animate-glow-pulse">
-              SRUJANAM
-            </h2>
-          </div>
-        </div>
-      )}
-
-      {/* Main hero section */}
-      <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero pt-24 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero pt-24 overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary/10 via-transparent to-transparent"></div>
         
         <div className="container mx-auto px-4 relative z-10">
@@ -60,7 +32,6 @@ const HeroSection = () => {
           </div>
         </div>
       </section>
-    </>
   );
 };
 
