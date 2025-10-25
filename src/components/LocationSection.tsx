@@ -11,7 +11,7 @@ const LocationSection = () => {
             Event Location
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Join us at the prestigious Sharanbasva University campus
+            Join us at the prestigious Sharnbasva University campus
           </p>
         </div>
 
@@ -31,7 +31,7 @@ const LocationSection = () => {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold mb-2 text-foreground">
-                    Sharanbasva University
+                    Sharnbasva University
                   </h3>
                   <p className="text-muted-foreground">
                     Kalburgi, Karnataka
