@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { MapPin } from "lucide-react";
-import campusImage from "@/assets/campus.jpg";
+import campusImage from "@/assets/campus.jpeg";
 
 const LocationSection = () => {
   return (
