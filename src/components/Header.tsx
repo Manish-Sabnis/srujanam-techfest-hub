@@ -20,7 +20,7 @@ const Header = () => {
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <img src={ieeeBangaloreLogo} alt="IEEE Bangalore Section" className="h-25 w-30 object-contain" />
+            <img src={ieeeBangaloreLogo} alt="IEEE Bangalore Section" className="h-20 w-25 object-contain" />
             <img src={nkssLogo} alt="NKSS Logo" className="h-20 w-20 object-contain" />
             <img src={universityLogo} alt="Sharanbasva University" className="h-20 w-20 object-contain" />
           </div>
