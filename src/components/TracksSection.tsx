@@ -3,6 +3,7 @@ import patentTrack from "@/assets/patent-track.jpg";
 import rosTrack from "@/assets/ros-track.jpg";
 import aiResearchTrack from "@/assets/ai-research-track.jpg";
 import agenticAiTrack from "@/assets/agentic-ai-track.jpg";
+import iceBreakingTrack from "@/assets/ice-breaking-track.jpg";
 
 const tracks = [
   {
@@ -28,6 +29,12 @@ const tracks = [
     description: "Experience the future of AI with agentic systems, led by an expert speaker from Samsung. Delve into autonomous AI agents, multi-agent systems, and how they're transforming industries. Learn about agent architectures, decision-making algorithms, and practical implementation strategies. This exclusive workshop offers insights from one of the world's leading technology companies.",
     image: agenticAiTrack,
     gradient: "from-blue-500/20 to-cyan-500/20"
+  },
+  {
+    title: "Ice Breaking Round",
+    description: "Kickstart your SRUJANAM experience with engaging fun activities designed to help students connect and collaborate. Build essential communication, networking, leadership, and management skills through interactive games and team challenges. Break the ice, make new friends, and set the foundation for meaningful connections throughout the event.",
+    image: iceBreakingTrack,
+    gradient: "from-orange-500/20 to-yellow-500/20"
   }
 ];
 

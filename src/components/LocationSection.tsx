@@ -53,7 +53,7 @@ const LocationSection = () => {
               </div>
 
               <a 
-                href="https://maps.google.com" 
+                href="https://www.google.com/maps/place/Sharnbasva+University/@17.3291153,76.823679,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc8b8aa170f760f:0x872fcb04853d307!8m2!3d17.3291153!4d76.823679!16s%2Fg%2F11dfwylpfn?entry=ttu&g_ep=EgoyMDI1MTAyMi4wIKXMDSoASAFQAw%3D%3D" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors w-fit"

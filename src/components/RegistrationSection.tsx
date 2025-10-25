@@ -29,7 +29,7 @@ const RegistrationSection = () => {
                 </p>
               </div>
               <a 
-                href="https://forms.google.com" 
+                href="https://forms.gle/USkvG4NjdVshtFGD6" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors group-hover:shadow-glow"
@@ -54,7 +54,7 @@ const RegistrationSection = () => {
                 </p>
               </div>
               <a 
-                href="https://forms.google.com" 
+                href="https://forms.gle/XMUmBuGb97ofkoVx7" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-secondary text-secondary-foreground rounded-lg font-semibold hover:bg-secondary/90 transition-colors group-hover:shadow-glow"
