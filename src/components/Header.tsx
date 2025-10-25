@@ -19,10 +19,16 @@ const Header = () => {
     <>
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
         <div className="container mx-auto px-4 py-4">
-          <div className="grid grid-cols-3 items-center gap-4">
-            <img src={ieeeBangaloreLogo} alt="IEEE Bangalore Section" className="h-20 object-contain justify-self-start" />
-            <img src={nkssLogo} alt="NKSS Logo" className="h-20 object-contain justify-self-center" />
-            <img src={universityLogo} alt="Sharanbasva University" className="h-20 object-contain justify-self-end" />
+          <div className="flex items-center justify-between">
+            <div className="flex-1 flex justify-start">
+              <img src={ieeeBangaloreLogo} alt="IEEE Bangalore Section" className="h-20 object-contain" />
+            </div>
+            <div className="flex-shrink-0">
+              <img src={nkssLogo} alt="NKSS Logo" className="h-20 object-contain" />
+            </div>
+            <div className="flex-1 flex justify-end">
+              <img src={universityLogo} alt="Sharanbasva University" className="h-20 object-contain" />
+            </div>
           </div>
         </div>
         
