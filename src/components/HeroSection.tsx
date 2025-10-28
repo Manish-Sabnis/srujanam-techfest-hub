@@ -26,8 +26,6 @@ const HeroSection = () => {
             </a>
             <a 
               href="#tracks"
-              target="_blank"
-              rel="noopener noreferrer"
               className="px-8 py-4 bg-card border border-primary rounded-lg font-semibold text-foreground hover:bg-primary/10 transition-colors"
             >
               Explore Tracks
