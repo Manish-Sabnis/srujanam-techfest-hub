@@ -11,10 +11,11 @@ const HeroSection = () => {
             SRUJANAM
           </h1>
           <p className="text-xl md:text-3xl text-muted-foreground max-w-3xl mx-auto">
-            Where Innovation Births Technology
+            <em>Where Innovation Births Technology</em>
             <br />
-            Presented by IEEE North Karnataka Subsection (NKSS) Student Activities Committee     
-          </p>
+            <br />
+              Presented by IEEE North Karnataka Subsection (NKSS) Student Activities Committee
+              </p>
           <p className="text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto">
             Join us for an extraordinary tech congress bringing together the brightest minds in innovation, 
             robotics, AI, and research.
